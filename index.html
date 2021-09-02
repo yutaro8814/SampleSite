@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/sanitize.css">
+    <link rel="stylesheet" href="styles/modules/swiper.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Sample Site</title>
+</head>
+
+<body>
+    <div id="global-container">
+        <div id="container">
+            <header>
+                <div class="logo">Sample</div>
+                <nav class="navigation">
+                    <!--ナビゲーション-->
+                    <ul class="nav__cover">
+                        <li class="nav__item__container">
+                            <a href="#" class="nav__link">リンク１</a>
+                        </li>
+                        <li class="nav__item__container">
+                            <a href="#" class="nav__link">リンク１</a>
+                        </li>
+                        <li class="nav__item__container">
+                            <a href="#" class="nav__link">リンク１</a>
+                        </li>
+                        <li class="nav__item__container">
+                            <button class="nav__btn">LinK</button>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <!--メインコンテンツ-->
+            <div class="hero-slider">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="hero__image__container">
+                                <div class="hero__message">Excelent</div>
+                                <img class="hero__item" src="images/image-1.jpg" alt="">
+                                <div class="hero__footer">
+                                    <div class="hero__footer__message">arrow</div>
+                                    <img src="images/arrow.svg" alt="" class="hero__footer__downarrow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero__image__container">
+                                <div class="hero__message">Excelent</div>
+                                <img class="hero__item" src="images/image-2.jpg" alt="">
+                                <div class="hero__footer">
+                                    <div class="hero__footer__message">arrow</div>
+                                    <img src="images/arrow.svg" alt="" class="hero__footer__downarrow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hero__image__container">
+                                <div class="hero__message">Excelent</div>
+                                <img class="hero__item" src="images/image-3.jpg" alt="">
+                                <div class="hero__footer">
+                                    <div class="hero__footer__message">arrow</div>
+                                    <img src="images/arrow.svg" alt="" class="hero__footer__downarrow">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ... -->
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+            </div>
+            <div class="content">
+                <aside>
+
+                </aside>
+                <main>
+                    
+                </main>
+                <aside>
+
+                </aside>
+                <footer>
+
+                </footer>
+            </div>
+        </div>
+        <div id="mobile-menu">
+            <!--メニューバーが開いた時の裏側のメニュー-->
+        </div>
+    </div>
+    <script src="scripts/venders/swiper.min.js"></script>
+    <script src="scripts/libraries/hero-slider.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
